@@ -1,11 +1,11 @@
 #include <stdio.h>
 /**
- *  main - space Entry
- *  Return: Always 0
+ *  main - Entry
+ *   Return: Always 0
  */
 
 int main(void)
 {
-	printf("with proper grammar,
+	printf("with proper grammar, but the outcome is a piece of art,\n");
 	return (0);
 }
