@@ -1,13 +1,44 @@
+#include <stdio.h>
 #include "main.h"
 
 /**
-* add - This function adds two intergers
-* @one: 1st number
-* @two: 2nd number
-* Return: one + two
+* print_to_98 - This function prints to 98
+* user inputs number to print
+* @num: number inputed
+* Return: Returns 0
 */
 
-int add(int one, int two)
+void print_to_98(int num)
 {
-	return (one + two);
+	if (num <= 98)
+	{
+		while (num <= 98)
+		{
+			printf("%d", num);
+			if (num != 98)
+			{
+				printf(", ");
+			}
+			num++;
+		}
+	}
+	else if (num >= 98)
+	{
+		while (num >= 98)
+		{
+			printf("%d", num);
+			if (num != 98)
+			{
+				printf(", ");
+			}
+			num--;
+		}
+	}
+	else
+	{
+	  printf("98");
+	}
+
+	printf("\n");
+
 }
