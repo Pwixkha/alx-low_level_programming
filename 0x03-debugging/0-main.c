@@ -1,16 +1,16 @@
-#include "main.h"
+#include "main.h"
 
 /**
-* main - Tests the integer
-* @positive_or_negative
-* Return: Always 0
+* main - Tests the integer
+* @positive_or_negative
+* Return: Always 0
 */
 
-int main(void)
+int main(void)
 {
-	int i;
+	int I;
 
 	i = 0;
-	positive_or_negative(i);
-	return (0);
+	positive_or_negative
+	return (0);
 }
